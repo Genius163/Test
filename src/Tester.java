@@ -8,7 +8,7 @@ public class Tester {
     public static void main(String[] args) {
         Random rm = new Random(500);
         if(rm.nextBoolean())
-            System.out.println("Hello sword");
+            System.out.println("Hello booorder");
         else
             System.out.println("Goodbye motherfucker");
     }
