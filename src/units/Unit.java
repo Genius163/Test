@@ -5,8 +5,9 @@ package units;
  */
 public interface Unit {
 
-    public int damage();
+    public int attack();
     public int defence();
+    public double getDamage();
     public double getHealth();
     public void setHealth(double health);
     public String getName();

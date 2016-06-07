@@ -44,7 +44,7 @@ public class Human implements Unit {
         this.health = health;
     }
 
-    public int damage(){
+    public int attack(){
         Random rm = new Random();
         return rm.nextInt(3);
     }
